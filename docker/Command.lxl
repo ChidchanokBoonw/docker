@@ -1,0 +1,11 @@
+docker ps -all
+docker run hello-world
+docker ps
+docker stop 75f2570cfa32
+docker run busybox ping google.com
+docker run busybox ls
+docker run busybox exho 'hello world in docker'
+docker -v
+docker exec -it
+docker run -p 9000:80 nginx
+docker image inspect nginx
